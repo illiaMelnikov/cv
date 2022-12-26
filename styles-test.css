@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #001427;
+    color: #f2fdff;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.mainHead {
+    height: max-content;
+    width: 100%;
+}
+
+.navbar {
+    display:flex;
+    position: -webkit-sticky;
+    position: sticky;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5vh 10% 0 10%;
+}
+
+.nameLogo {
+    font-size: 30px;
+}
+
+span {
+    color: #c1121f;
+    font-weight: bold;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content:space-around;
+}
+
+.navbar-item {
+    padding: 10px 20px;
+    
+}
+
+.navbar-item a {
+    font-weight: bold;
+}
+
+.navbar-item a:hover {
+    color: #c1121f;
+    transition: .3s;
+}
+
+.contactMeButton {
+    color: #c1121f;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.contactMe {
+    position: relative;
+    display: inline-block;
+    background:fixed;
+}
+
+.contactMeContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contactMeContent a {
+    display: block;
+    padding: 2px 5% 2px 5%;
+    
+  }
+
+  .contactMeContent a:hover {
+    background-color: #c1121f;
+    color: #fdf0d5;
+    font-weight: bold;
+    transition: .3s;
+  }
+
+  .contactMe:hover .contactMeContent {
+    display: block;
+    
+}
+
+.contactMe:hover .contactMeButton {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.aboutMe {
+    padding: 5vh 10% 0 10%;
+    color: #c1121f;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.photoDescription { 
+    height: max-content;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5vh 10% 0 10%;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.description {
+    padding-left: 1rem;
+}
+    
+
+.photo img {
+    
+    
+}
