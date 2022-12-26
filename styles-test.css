@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #001427;
-    color: #f2fdff;
+    background-color: #1b1c1e;
+    color: #fdf0d5;
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -29,7 +29,7 @@
 }
 
 span {
-    color: #c1121f;
+    color: #2a9d8f;
     font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ span {
 }
 
 .navbar-item a:hover {
-    color: #c1121f;
+    color: #2a9d8f;
     transition: .3s;
 }
 
@@ -74,6 +74,10 @@ span {
     z-index: 1;
   }
 
+  .contactMeButton:hover {
+    color: #2a9d8f;
+  }
+
   .contactMeContent a {
     display: block;
     padding: 2px 5% 2px 5%;
@@ -81,7 +85,7 @@ span {
   }
 
   .contactMeContent a:hover {
-    background-color: #c1121f;
+    background-color: #2a9d8f;
     color: #fdf0d5;
     font-weight: bold;
     transition: .3s;
@@ -97,7 +101,8 @@ span {
     transition: .3s;
 }
 
-.aboutMe {
+h2 {
+    text-align: center;
     padding: 5vh 10% 0 10%;
     color: #c1121f;
     font-weight: bold;
@@ -118,9 +123,59 @@ span {
 .description {
     padding-left: 1rem;
 }
-    
 
-.photo img {
-    
-    
+.jobs {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10% 0 10%;
+    justify-content:space-around;
+    width: fit-content;
+}
+
+.date {
+    background-color: #c1121f;
+    width: fit-content;
+    border-radius: 8px;
+    padding: .2rem;
+    font-weight: bold;
+}
+
+.job {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr {
+    border: none;
+}
+
+.position {
+    padding-left: 1em;
+}
+
+.resps {
+    padding-left: 2em;
+}
+
+.skillsAndLangs {
+    display: flex;
+    height: 500px;
+    padding: 5vh 10% 0 10%;
+    justify-content:space-around;
+}
+
+.skillsAndLangs p {
+    padding: .2rem 1rem;
+}
+
+.skillsAndLangs h3 {
+    color: #2a9d8f;
+}
+
+#joke {
+    color: #c1121f;
+    font-weight: bold;
 }
